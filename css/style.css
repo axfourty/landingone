@@ -7,9 +7,9 @@ body {
 
 .header::after {
     content: "";
-    height: 75vh;
+    height: 90vh;
     width: 100%;
-    background-image: url(../img/pharma.png);
+    background-image: url(../img/kwikmart.png);
     background-size: cover; /* "Para cubrir la pantalla" */
     background-repeat: no-repeat;
     background-position: center;
@@ -44,8 +44,8 @@ filter: blur(0px);
 }
 
 .header-content .logo {  /* Para ajustar imagen logo en landscape */
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 150px;
 }
 
 
@@ -58,7 +58,14 @@ filter: blur(0px);
     line-height: 1.1; /* iNTERLINEADO */
     margin-top: 1rem;
     color: black;
-    text-align: center;
+    text-align: center;    
+}
+
+.text1 {
+    color: black;
+    border-style: groove;
+    background: white;
+    text-size-adjust: 100px;
 }
 
 .container {
@@ -106,6 +113,7 @@ footer {
 footer p {
     margin: 0;
 }
+
 
 @media(max-width: 560px) {
     .header::after {
